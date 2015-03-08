@@ -1,4 +1,4 @@
-> experiment on csp
+This is the demonstration of how `eval` and `Function` work in Content-Security-Policy enabled situations. Go to http://csp-exp.herokuapp.com/ and see the source code and the debug console.
 
 - eval.js
   - call `eval`
