@@ -9,7 +9,8 @@ app.use(express.static('public'));
 
 app.get('/', function (req, res) {
 
-    var html = '';
+    var html = 'This is the demonstration of how `eval` and `Function` work in Content-Security-Policy enabled situations.<br /><br />See the source code and the debug console.';
+
     html += '<script src="/eval.js"></script>';
     html += '<script src="/function-constructor.js"></script>';
     html += '<script src="/catch-eval-error.js"></script>';
