@@ -12,6 +12,7 @@ app.get('/', function (req, res) {
     var html = '';
     html += '<script src="/eval.js"></script>';
     html += '<script src="/function-constructor.js"></script>';
+    html += '<script src="/catch-eval-error.js"></script>';
     html += '<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>';
     html += '<script src="https://cdnjs.cloudflare.com/ajax/libs/mo/1.7.3/lang/es6-promise.js"></script>';
 

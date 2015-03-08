@@ -1,6 +1,6 @@
 
 
-console.log('eval.js is loaded and works');
+console.log('eval.js is loaded');
 
 
 console.log(eval('this'));
