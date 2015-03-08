@@ -22,7 +22,7 @@ app.get('/', function (req, res) {
 });
 
 
-var server = app.listen(process.env.port || 3001, function () {
+var server = app.listen(process.env.PORT || 3001, function () {
 
     console.log('server started at port %s', server.address().port);
 
