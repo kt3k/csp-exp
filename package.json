@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kt3k/csp-exp",
   "dependencies": {
-    "express": "^4.12.2"
+    "express": "^4.14.1"
   }
 }
